@@ -1,0 +1,64 @@
+{
+  "fields": [
+    {"id": 1, "name": "mathematics"}
+    {"id": 2, "name": "english"}
+    {"id": 3, "name": "history"}
+    {"id": 4, "name": "biology"}
+    {"id": 5, "name": "physics"}
+  ],
+  "levels": [
+    {"id": 1, "grade": "6th", "cycle": "middle"}
+    {"id": 2, "grade": "7th", "cycle": "middle"}
+    {"id": 3, "grade": "8th", "cycle": "middle"}
+    {"id": 4, "grade": "9th", "cycle": "high"}
+    {"id": 5, "grade": "10th", "cycle": "high"}
+    {"id": 6, "grade": "11th", "cycle": "high"}
+    {"id": 7, "grade": "12th", "cycle": "high"}
+  ]
+  "teachers": [
+    { 
+      "id": 1,
+      "firstname": "Alan", 
+      "lastname": "Turing",
+      "fields": [
+        { "field_id": 1, "level_id": 7 }
+      ]
+    }
+    { 
+      "id": 2,
+      "firstname": "Charles", 
+      "lastname": "Darwin",
+      "fields": [
+        { "field_id": 4, "level_id": 7 }
+      ]
+    }
+    { 
+      "id": 3,
+      "firstname": "Charles", 
+      "lastname": "Darwin",
+      "fields": [
+        { "field_id": 4, "level_id": 7 }
+      ]
+    }
+    { 
+      "id": 4,
+      "firstname": "Isaac", 
+      "lastname": "Newton",
+      "fields": [
+        { "field_id": 2, "level_id": 4 }
+        { "field_id": 3, "level_id": 2 }
+        { "field_id": 5, "level_id": 12 }
+      ]
+    }
+        { 
+      "id": 5,
+      "firstname": "William", 
+      "lastname": "Shakespeare",
+      "fields": [
+        { "field_id": 2, "level_id": 12 }
+        { "field_id": 3, "level_id": 5 }
+      ]
+    }
+  ]
+}
+
