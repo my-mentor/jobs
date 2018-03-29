@@ -3,7 +3,10 @@ We want to help families to find a teacher regarding their needs in term of fiel
 <h2>Specifications</h2>
 We want to :
 <ul>
-  <li>let Teachers add their fields (each one is associated to one level)</li>
-  <li>let Families look for teachers regarding a field, level.</li>
+  <li>create and store new teachers. Each teacher must include a collection of fields associated with one level.</li>
+  <li>Search for teachers regarding a field, level.</li>
 </ul>
-<p>The user must be able to enter data by running your .rb file in his terminal.</p>
+<p>
+  A teacher must include a firstname, a lastname and at least one field/level.
+  We want to be able to execute a file that will store a new teacher in the output.json file.
+</p>
