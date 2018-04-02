@@ -1,19 +1,65 @@
 {
+  "teachers": [
+  ],
+  "requests": [
+  ],
   "fields": [
-    {"id": 1, "name": "mathematics"}
-    {"id": 2, "name": "english"}
-    {"id": 3, "name": "history"}
-    {"id": 4, "name": "biology"}
-    {"id": 5, "name": "physics"}
+    {
+      "id": 1,
+      "name": "mathematics"
+    },
+    {
+      "id": 2,
+      "name": "english"
+    },
+    {
+      "id": 3,
+      "name": "history"
+    },
+    {
+      "id": 4,
+      "name": "biology"
+    },
+    {
+      "id": 5,
+      "name": "physics"
+    }
   ],
   "levels": [
-    {"id": 1, "grade": "6th", "cycle": "middle"}
-    {"id": 2, "grade": "7th", "cycle": "middle"}
-    {"id": 3, "grade": "8th", "cycle": "middle"}
-    {"id": 4, "grade": "9th", "cycle": "high"}
-    {"id": 5, "grade": "10th", "cycle": "high"}
-    {"id": 6, "grade": "11th", "cycle": "high"}
-    {"id": 7, "grade": "12th", "cycle": "high"}
+    {
+      "id": 1,
+      "grade": "6th",
+      "cycle": "middle"
+    },
+    {
+      "id": 2,
+      "grade": "7th",
+      "cycle": "middle"
+    },
+    {
+      "id": 3,
+      "grade": "8th",
+      "cycle": "middle"
+    },
+    {
+      "id": 4,
+      "grade": "9th",
+      "cycle": "high"
+    },
+    {
+      "id": 5,
+      "grade": "10th",
+      "cycle": "high"
+    },
+    {
+      "id": 6,
+      "grade": "11th",
+      "cycle": "high"
+    },
+    {
+      "id": 7,
+      "grade": "12th",
+      "cycle": "high"
+    }
   ]
 }
-

@@ -5,15 +5,15 @@ In the exercice you created new teachers. Now we want you to save a client reque
 We want to :
 <ul>
   <li>
-    Save a Request that include the fullname of the client, a collection of courses which is defined by a level and field.
+    Create and save a Request that includes the fullname of a client, a field and a level.
   </li>
   <li>
-    Search teachers who match with a specific Request criterias. We want a collection of teachers.
+    Search for teachers who match with a specific Request regarding its field and level. We have to return a collection of teachers.
   </li>
   <li>
-    Among those teachers choose one and store its reference in the Request. He will be the teacher selected by the client.
+    Update the request with the reference of one of the teachers who fit with the request. He will be the teacher selected by the client.
   </li>
 </ul>
 <p>
-  We want to be able to execute a file that will store the objects in the output.json file.
+  Feel free to improve the UX. We want to be able to execute a ruby file that will store the requests in data.json.
 </p>
