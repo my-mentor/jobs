@@ -11,3 +11,4 @@ This test is divided into 4 exercices those have to be completed in the order.
   <li>Chapter 3: Courses management</li>
   <li>Chapter 4: coming soon...</li>
 </ul>
+<p>Please clone this repo, work in your own new branch and create a pull request when you are done.</p>
