@@ -14,72 +14,63 @@ end
 
 auto_incremented_id = auto_increment_teacher_id(data["teachers"])
 
+skills_hash = {}
+skills_array = []
+
+
+#view
 p "- - - Welcome on Mymentor.com ! - - -"
-p"*"
-p"**"
-p"***"
+
 p "what's your first name ?"
 print ">"
-firstname = gets.chomp
-p"***"
-p"**"
-p"*"
-p"*"
-p"**"
-p"***"
+firstname = gets.chomp.capitalize
+
 p "what's your last name ?"
 print ">"
-lastname = gets.chomp
-p"***"
-p"**"
-p"*"
-p"*"
-p"**"
-p"***"
-p "what kind of fields do you teach ? (please write the number associated to your field)"
-p "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$"
-p "1 - mathematics"
-p "2 - english"
-p "3 - history"
-p "4 - biology"
-p "5 - physics"
-p "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$"
-print ">"
-fields = gets.chomp.to_i
-p"***"
-p"**"
-p"*"
-p"*"
-p"**"
-p"***"
-p "what is your level of teaching for this field ?"
-p "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$"
-p "1 - grade 6th or cycle middle"
-p "2 - 7th, --> cycle middle"
-p "3 - 8th, --> cycle middle"
-p "4 - 9th, --> cycle high"
-p "5 - 10th, --> cycle high"
-p "6 - 11th, --> cycle high"
-p "7 - 12th, --> cycle high"
-p "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$"
-print ">"
-levels = gets.chomp.to_i
-p"***"
-p"**"
-p"*"
-p"*"
-p"**"
-p"***"
-p "Thanks your '#{firstname}' #{lastname}, your profil registered successfully !"
-p"***"
-p"**"
-p"*"
+lastname = gets.chomp.capitalize
+
+choice = "y"
+until choice == "n"
+  p "what kind of fields do you teach ?(please write the number associated to your field)"
+  p "."
+  p "1 - mathematics"
+  p "2 - english"
+  p "3 - history"
+  p "4 - biology"
+  p "5 - physics"
+  p "."
+  print ">"
+  fields = gets.chomp.to_i
+
+  p "what is your level of teaching for this field ?(please write the number associated to your field)"
+  p "."
+  p "1 - grade 6th or cycle middle"
+  p "2 - 7th, --> cycle middle"
+  p "3 - 8th, --> cycle middle"
+  p "4 - 9th, --> cycle high"
+  p "5 - 10th, --> cycle high"
+  p "6 - 11th, --> cycle high"
+  p "7 - 12th, --> cycle high"
+  p "."
+  print ">"
+  levels = gets.chomp.to_i
+    skills_array << skills_hash = {
+      "fields": fields,
+      "levels": levels
+    }
+
+  p  'Do you want to add another field ? (y/n)'
+  choice = gets.chomp
+end
+
+p "Thanks your #{firstname.capitalize} #{lastname.capitalize }, your profil registered successfully !"
+p "Goodbye !"
+
 new_teacher = {
     "id" => auto_incremented_id,
     "firstname" => firstname ,
     "lastname" => lastname,
-    "fields" =>  fields,
-    "levels" => levels
+    "skills" => skills_array
   }
 
   data["teachers"] << new_teacher
