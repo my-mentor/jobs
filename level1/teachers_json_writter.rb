@@ -20,7 +20,7 @@ skills_array = []
 
 #view
 p "- - - Welcome on Mymentor.com ! - - -"
-
+p "Hello dear new professor"
 p "what's your first name ?"
 print ">"
 firstname = gets.chomp.capitalize
