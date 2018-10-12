@@ -1,7 +1,89 @@
 {
   "teachers": [
+    {
+      "id": 1,
+      "firstname": "Prof",
+      "lastname": "Math",
+      "skills": [
+        {
+          "fields": 1,
+          "levels": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "firstname": "Prof-two",
+      "lastname": "Math-two",
+      "skills": [
+        {
+          "fields": 1,
+          "levels": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "firstname": "Prof",
+      "lastname": "Englistory",
+      "skills": [
+        {
+          "fields": 2,
+          "levels": 2
+        },
+        {
+          "fields": 3,
+          "levels": 3
+        }
+      ]
+    }
   ],
   "requests": [
+    {
+      "fullname": "Adrien zafiropoulos",
+      "fields": 1,
+      "levels": 1,
+      "reference": [
+        {
+          "id": 2,
+          "firstname": "Prof-two",
+          "lastname": "Math-two",
+          "skills": [
+            {
+              "fields": 1,
+              "levels": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fullname": "Adri zafi",
+      "skills": [
+        {
+          "fields": 1,
+          "levels": 1,
+          "lenght": 2,
+          "price": 29,
+          "date": "25/06/2018"
+        },
+        {
+          "fields": 2,
+          "levels": 5,
+          "lenght": 5,
+          "price": 36,
+          "date": "25/06/2018"
+        },
+        {
+          "fields": 5,
+          "levels": 7,
+          "lenght": 4,
+          "price": 36,
+          "date": "01/07/2018"
+        }
+      ],
+      "bill": 382
+    }
   ],
   "fields": [
     {
