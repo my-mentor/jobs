@@ -5,14 +5,13 @@ In the previous exercice you created and saved new teachers. Now we want you to 
 We want to :
 <ul>
   <li>
-    Create and save a Request that includes the fullname of a client, a field and a level.
-    Create and save a Request that includes the client's fullname, a reference to a level and to a field.
+    Create and save a Request that includes the client's fullname, a reference to a level and to a field (stored in data.json).
   </li>
   <li>
     Search for teachers who match with a specific Request regarding its field and level. We have to return a collection of teachers.
   </li>
   <li>
-    Update the request with the reference of one of the teachers who fit with the request. He is the teacher who has been selected by the client.
+    Update the request with the reference of one of the teachers who fits with the request. He is the teacher who has been selected by the client.
   </li>
 </ul>
 <p>
