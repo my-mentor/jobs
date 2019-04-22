@@ -1,4 +1,4 @@
-<h1>MyMentor Backend Challenge</h1>
+<h1>MyMentor Challenges</h1>
 <p>
   Looking for a job to improve the world of Education? Check out our <a href="https://mymentor.welcomekit.co/">open positions</a>.<br />
   We strongly believe that we can improve the students education by finding the best teachers and course rythm for every students. We will achieve this through data analysis.
