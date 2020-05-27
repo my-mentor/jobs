@@ -13,5 +13,6 @@ This test is divided into 4 exercices those have to be completed in the order:
 </ul>
 <h2>How to submit</h2>
 <p>Please fork this repo, and send us the link of your own project when you are done.</p>
+<p>Don't use Rails, we want to see how you structure your code within the app :)</p>
 
 <p>Thank you</p>
